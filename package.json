@@ -1,0 +1,31 @@
+{
+  "name": "abstract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZAKdev/abstract.git"
+  },
+  "author": "Zain Ahmed Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZAKdev/abstract/issues"
+  },
+  "homepage": "https://github.com/ZAKdev/abstract#readme",
+  "dependencies": {
+    "abstract-sdk": "^3.1.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2"
+  }
+}
